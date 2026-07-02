@@ -1,5 +1,21 @@
 # @modelcontextprotocol/express
 
+## 2.0.0-beta.3
+
+### Patch Changes
+
+- [#2420](https://github.com/modelcontextprotocol/typescript-sdk/pull/2420) [`7635115`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7635115d0112c3f980b45a9773a4770660af8aae) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Add runtime-neutral Bearer authentication to `@modelcontextprotocol/server`:
+  `requireBearerAuth` gates web-standard `fetch(request)` hosts (Cloudflare
+  Workers, Deno, Bun, Hono), built on the exported `verifyBearerToken` and
+  `bearerAuthChallengeResponse` pieces, with `OAuthTokenVerifier` now defined
+  here. The Express middleware adapts the same core and is unchanged in
+  behavior, except that `WWW-Authenticate` challenge values are now RFC 7235
+  quoted-string sanitized (quotes and backslashes escaped, control and
+  non-ASCII characters replaced); `@modelcontextprotocol/express` re-exports
+  `OAuthTokenVerifier` as before.
+- Updated dependencies [[`7635115`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7635115d0112c3f980b45a9773a4770660af8aae)]:
+    - @modelcontextprotocol/server@2.0.0-beta.3
+
 ## 2.0.0-beta.2
 
 ### Patch Changes
