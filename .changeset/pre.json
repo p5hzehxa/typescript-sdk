@@ -28,6 +28,8 @@
     "beta-release",
     "cjs-support-v2-packages",
     "codemod-iterations-5",
-    "post-dispatch-32021-http-400"
+    "codemod-versions-from-manifests",
+    "post-dispatch-32021-http-400",
+    "web-standard-bearer-auth"
   ]
 }

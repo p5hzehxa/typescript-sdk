@@ -1,5 +1,12 @@
 # @modelcontextprotocol/fastify
 
+## 2.0.0-beta.3
+
+### Patch Changes
+
+- Updated dependencies [[`7635115`](https://github.com/modelcontextprotocol/typescript-sdk/commit/7635115d0112c3f980b45a9773a4770660af8aae)]:
+    - @modelcontextprotocol/server@2.0.0-beta.3
+
 ## 2.0.0-beta.2
 
 ### Patch Changes
