@@ -18,8 +18,8 @@
         "zod": "catalog:runtimeShared"
     },
     "devDependencies": {
-        "tsx": "catalog:devTools",
-        "vitest": "catalog:devTools"
+        "tsx": "4.22.0",
+        "vitest": "4.1.8"
     },
     "example": {
         "era": "dual",
